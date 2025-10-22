@@ -11,7 +11,7 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task0.V28.Lib
             {
                 p *= (((Math.Pow(value, 3) * i)) + 2);
             }
-            return p;
+            return Math.Round(p, 3);
         }
     }
 }
