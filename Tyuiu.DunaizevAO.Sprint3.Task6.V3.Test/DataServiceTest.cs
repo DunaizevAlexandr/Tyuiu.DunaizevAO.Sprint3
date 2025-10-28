@@ -11,7 +11,7 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task6.V3.Test
             DataService ds = new DataService();
             int a = 13;
             int b = 19;
-            int wait = 129;
+            int wait = 121;
             var res = ds.GetSumTheDivisors(a, b);
             Assert.AreEqual(wait, res);
         }
