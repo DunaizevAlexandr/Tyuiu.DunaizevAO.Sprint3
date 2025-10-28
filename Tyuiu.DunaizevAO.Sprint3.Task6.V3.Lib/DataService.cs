@@ -9,7 +9,7 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task6.V3.Lib
             int s = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                for(int j = 8; j <= i; j++)
+                for(int j = 9; j <= i; j++)
                 {
                     if (i %  j == 0)
                     {
