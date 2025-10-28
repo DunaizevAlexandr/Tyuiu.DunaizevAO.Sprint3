@@ -13,7 +13,7 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task2.V25.Lib
                 sum += chis;
                 startValue++;
             } while (startValue < stopValue);
-            return Math.Round(sum);
+            return Math.Round(sum,3);
         }
     }
 }
