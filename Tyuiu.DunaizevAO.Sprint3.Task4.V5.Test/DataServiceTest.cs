@@ -11,7 +11,7 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task4.V5.Test
             DataService ds = new DataService();
             int a = -5;
             int b = 5;
-            double wait = -0,858;
+            double wait = -0.858;
             var res = ds.Calculate(a, b);
             Assert.AreEqual(wait, res);
         }
