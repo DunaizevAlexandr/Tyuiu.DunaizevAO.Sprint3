@@ -11,10 +11,10 @@ namespace Tyuiu.DunaizevAO.Sprint3.Task5.V16.Lib
             {
                 for (int k = startValue2; k < stopValue2; k++)
                 {
-                    s += Math.Cos(k);
+                    s += (Math.Cos(k) + Math.Pow(x, 2));
                 }
             }
-            return Math.Round(s + x*x, 3);
+            return Math.Round(s, 3);
         }
     }
 }
